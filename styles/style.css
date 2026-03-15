@@ -4,8 +4,8 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding-bottom: 96px;
   padding-top: 92px;
+  padding-bottom: 92px;
   padding-inline: 50px;
   font-size: 18px;
 }
@@ -47,6 +47,7 @@
   background-size: cover;
   background-position: center;
   z-index: 1;
+  min-height: 757px;
 }
 
 .overlay {
@@ -58,6 +59,7 @@
 .overlay__title {
   font-size: 100px;
   font-weight: bold;
+  line-height: 114px;
   color: white;
   text-transform: uppercase;
   padding: 165px 50px 106px;
@@ -73,6 +75,8 @@
 
 .aligned-text_center {
   text-align: center;
+  line-height: 156px;
+  padding-left: 28px;
 }
 
 .aligned-text_right {
@@ -104,7 +108,7 @@
 }
 
 .cover__description-text {
-  word-spacing: 90%;
+  word-spacing: 84%;
   text-transform: uppercase;
 }
 
@@ -202,9 +206,10 @@
 
 .about__column {
   display: grid;
-  grid-template-columns: 334px 1fr;
+  grid-template-columns: 286px 1fr;
   gap: 25px;
   padding-top: 35px;
+  padding-left: 71px;
 }
 
 .about__logo {
@@ -244,7 +249,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   font-size: 18px;
   line-height: 24px;
-  padding-bottom: 82px;
+  padding: 0 50px 82px;
 }
 
 .address {
