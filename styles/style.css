@@ -281,3 +281,8 @@
   justify-self: end;
   gap: 48px;
 }
+
+.footer__social-list-item {
+  width: 48px;
+  height: 48px;
+}
